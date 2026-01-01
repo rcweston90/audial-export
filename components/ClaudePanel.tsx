@@ -392,7 +392,7 @@ export default function ClaudePanel({ strudelAdapter, isMobile = false, settings
             className={`text-dim text-center break-words ${isMobile ? 'pt-4' : 'pt-8'}`}
             style={{ color: "var(--text-alt)", opacity: 0.6 }}
           >
-            describe what you want to hear
+            describe the music you want — instrumentals, texture, experience...
           </div>
         ) : (
           <div className="flex flex-col gap-2 md:gap-3 min-w-0">
@@ -602,7 +602,7 @@ export default function ClaudePanel({ strudelAdapter, isMobile = false, settings
             placeholder={
               isGenerating
                 ? "generating..."
-                : isMobile ? "describe..." : "describe what you want..."
+                : isMobile ? "describe..." : "describe the music you want — instrumentals, texture, experience..."
             }
             className={`flex-1 bg-transparent focus:outline-none break-words ${isMobile ? 'text-sm' : ''}`}
             style={{
