@@ -41,14 +41,13 @@ Open [http://localhost:3000](http://localhost:3000), click ⚙️ (settings), ch
 
 ## Tips for Getting a Good Song
 
-It is rare for a model to produce a great song on the first prompt. 
+It is rare for a model to produce a great song on the first prompt. In practice, you have to **vibe** with the model!
 
 What works:
 - iterate, don't restart - refine the musical idea
 - react to what it generates (for example, if a part is good, try asking it to expand it)
 - let the model settle into a direction instead of forcing novelty every turn
 
-in practice, you have to **vibe** with the model!
 
 ### Note:
 - Unless you explicitly provide the musical material (notes, structure, midi, code, etc.), the model **cannot reliably recreate specific existing works**.
